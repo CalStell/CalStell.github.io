@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cal's Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="header">
+      <button class="show-modal">Join The Waitlist</button>
+      <ul>
+        <li>
+          <a class="home" href="#top"
+            ><img
+              src="https://www.freepngimg.com/download/logo/69682-product-mamp-brand-design-logo-font-thumb.png"
+              width="100px"
+              height="100px"
+          /></a>
+        </li>
+
+        <!-- you should make this open a modal with a form. Use one of the vids from Udemy course -->
+      </ul>
+    </nav>
+
+    <!-- Modal -->
+
+    <div class="modal hidden">
+      <!--this window is hidden because in the css .hidden is set to display none-->
+      <button class="close-modal">&times;</button>
+      <h1>Hi I'm a modal</h1>
+      <form>
+        <label>
+          <input
+            class="waitlistInputField"
+            type="text"
+            name="email"
+            placeholder="email"
+          />
+        </label>
+        <button class="signUp">Sign Up</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- /////////////// -->
+
+    <!-- Banner Section -->
+    <div class="banner">
+      <h1>The Product That Does This</h1>
+      <p>Sentence. Call to action.</p>
+      <div class="allSlides">
+        <img
+          class="mySlides"
+          src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg"
+          alt="shoe"
+        />
+        <img
+          class="mySlides"
+          src="https://i.ibb.co/yX1XSDV/daniel-korpai-a-Umq85-2-V7-I-unsplash-1.jpg"
+        />
+      </div>
+    </div>
+
+    <!-- Section -->
+    <div id="low-section">
+      <div class="lower">
+        <h2>Text</h2>
+        <p>More Text</p>
+        <p>Some More Text</p>
+      </div>
+
+      <!-- Font Card - Serif -->
+      <div class="font-card serif">
+        <h2>Title</h2>
+        <h5 class="creator">Text</h5>
+      </div>
+    </div>
+
+    <!-- Section-->
+    <div id="low-section">
+      <div class="lower">
+        <h2>Text</h2>
+        <p>More Text</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  </body>
+</html>
