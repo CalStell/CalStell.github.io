@@ -1,4 +1,4 @@
 # CalStell.github.io
 Willie's Website
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/New_York_Mets_Insignia.svg" width="300">
+<img src="https://media.giphy.com/media/1OF9p190RXLt9ppgjZ/giphy.gif" width="300">
