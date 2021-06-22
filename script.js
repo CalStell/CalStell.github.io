@@ -4,6 +4,7 @@ const modal = document.querySelector(".modal"); //we're storing this in a consta
 const overlay = document.querySelector(".overlay");
 const btn = document.querySelector(".close-modal");
 const btnCloseModal = document.querySelector(".close-modal");
+const signUpCloseModal = document.querySelector(".signUp");
 const btnsOpenModal = document.querySelectorAll(".show-modal");
 console.log(btnsOpenModal); //querySelectorAll returns a node list of all the elements in the show-modal class (in the html)
 
@@ -29,6 +30,7 @@ function closeModal() {
 }
 
 btnCloseModal.addEventListener("click", closeModal);
+signUpCloseModal.addEventListener("click", closeModal);
 overlay.addEventListener("click", closeModal);
 
 document.addEventListener("keydown", function (event) {
@@ -37,6 +39,7 @@ document.addEventListener("keydown", function (event) {
     closeModal();
 });
 
+//Slideshow
 var slideIndex = 0;
 carousel();
 
