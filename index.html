@@ -1,38 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Cal's Site</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Modal window</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <button class="show-modal">About Me</button>
+    <!-- Header -->
 
-    <!-- <button class="show-modal">Why Cal is Cooler Than Courtney</button>
-    <button class="show-modal">Business Things</button> -->
-    <img src="https://i.ibb.co/bFP9j6c/IMG-3770.jpg" border="0" /></a
-    ><br />
+    <nav class="header">
+      <button class="show-modal">Join The Waitlist</button>
+      <ul>
+        <li>
+          <a class="home" href="#top"
+            ><img
+              src="https://www.freepngimg.com/download/logo/69682-product-mamp-brand-design-logo-font-thumb.png"
+              width="100px"
+              height="100px"
+          /></a>
+        </li>
+
+        <!-- you should make this open a modal with a form. Use one of the vids from Udemy course -->
+      </ul>
+    </nav>
+
+    <!-- Modal -->
 
     <div class="modal hidden">
       <!--this window is hidden because in the css .hidden is set to display none-->
       <button class="close-modal">&times;</button>
-      <h1>Hi I'm Willie Lysiak 😍</h1>
-      <p>
-        You can find me doing business things. Lately, I've been really stressed
-        out because Courtney moved. The cats around here interupt my business
-        meetings so I hiss at them
-      </p>
-    </div>
-    <div class="two modal hidden">
-      <!--this window is hidden because in the css .hidden is set to display none-->
-      <button class="two-close-modal">&times;</button>
-      <h1>Yeet 😍</h1>
-      <p>yeet</p>
+      <h1>Hi I'm a modal</h1>
+      <form>
+        <label>
+          <input
+            class="waitlistInputField"
+            type="text"
+            name="email"
+            placeholder="email"
+          />
+        </label>
+        <button class="signUp">Sign Up</button>
+      </form>
     </div>
     <div class="overlay hidden"></div>
 
+    <!-- /////////////// -->
+
+    <!-- Banner Section -->
+    <div class="banner">
+      <h1>The Product That Does This</h1>
+      <p>Sentence. Call to action.</p>
+      <div class="allSlides">
+        <img class="mySlides" src="apppaul_cropped.jpg" />
+        <img
+          class="mySlides"
+          src="daniel-korpai-aUmq85-2V7I-unsplash (1).jpg"
+        />
+      </div>
+    </div>
+
+    <!-- Section -->
+    <div id="serif">
+      <div class="editorial">
+        <h2>Text</h2>
+        <p>More Text</p>
+        <p>Some More Text</p>
+      </div>
+
+      <!-- Font Card - Serif -->
+      <div class="font-card serif">
+        <h2>Title</h2>
+        <h5 class="creator">Text</h5>
+      </div>
+    </div>
+
+    <!-- Sans-Serif Section -->
+    <div id="sans">
+      <!-- Editorial Section - Sans-Serif -->
+      <div class="editorial">
+        <h2>Text</h2>
+        <p>More Text</p>
+      </div>
+    </div>
     <script src="script.js"></script>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
   </body>
 </html>
