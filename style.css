@@ -98,6 +98,19 @@ a.home {
 
 /* Lower */
 .lower {
+  /* padding-bottom: 60px; */
+  margin-top: -20px;
+  color: #717171;
+  font-family: "Trebuchet MS", "Times New Roman", serif;
+}
+
+/* Center */
+.centeredTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
   padding-bottom: 40px;
   color: #717171;
   font-family: "Trebuchet MS", "Times New Roman", serif;
@@ -241,6 +254,10 @@ a.home {
   border-radius: 15px;
   z-index: -10;
   margin-bottom: -400px;
+}
+
+.personas {
+  scroll-margin-top: 4rem;
 }
 
 .footer {
